@@ -17,7 +17,7 @@
   const [send, receive] = crossfade({ duration: 200 });
 </script>
 
-<div style="position: relative">
+<div>
   <!-- {JSON.stringify(scoped)} -->
   <!-- List of items (comments, posts, etc.) -->
   <List {collection} {collectionName} {send} {receive} {route} />

@@ -12,6 +12,8 @@
   }
   main {
     margin-left: 10em;
+    position: relative;
+    min-height: 100%;
   }
 </style>
 

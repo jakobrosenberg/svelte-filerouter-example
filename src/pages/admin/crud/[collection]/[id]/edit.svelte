@@ -1,5 +1,6 @@
 <script>
   export let entry;
+  export let collectionName;
   $: fields = Object.entries(entry);
 </script>
 
@@ -24,7 +25,7 @@
     {/each}
   </form>
   <div class="buttons">
-    <a href={'/admin/crud/posts/' + entry.id}>Back</a>
+    <a href={'/admin/crud/' + collectionName + '/' + entry.id}>Back</a>
   </div>
 
 </div>

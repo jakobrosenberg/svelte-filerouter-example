@@ -59,6 +59,6 @@
     class="modal"
     in:receive={{ key: 'modal-' + id }}
     out:send={{ key: 'modal-' + id }}>
-    <slot scoped={{ entry }} />
+    <slot scoped={{ entry, collectionName }} />
   </div>
 </div>

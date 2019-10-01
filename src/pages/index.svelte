@@ -1,5 +1,5 @@
 <script>
-  import { routes } from "generatedRoutes.js";
+  export let routes;
 
   const _routes = routes.map((route, i) => {
     route.url = route.path

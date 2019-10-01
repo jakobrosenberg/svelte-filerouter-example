@@ -12,8 +12,6 @@
   $: collectionStore = stores[collectionName];
   $: collection = $collectionStore;
 
-  $: console.log("collection in [collection]", collection);
-
   const [send, receive] = crossfade({ duration: 200 });
 </script>
 

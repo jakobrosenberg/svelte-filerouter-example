@@ -4,7 +4,6 @@
   export let send;
   export let receive;
   export let route;
-  $: console.log("collection in list", collection);
 </script>
 
 <style>

@@ -13,15 +13,17 @@ export default {
     input: 'src/main.js',
     output: {
         sourcemap: true,
-        format: 'iife',
+        // "amd", "cjs", "system", "esm", "iife" or "umd".
+        format: 'esm',
         name: 'app',
-        file: 'public/bundle.js'
+        dir: 'public/bundle'
     },
     plugins: [
 
         fileRouter({
             appFile: 'src/App.svelte',
-            pages: 'src/pages',
+            pages: './src/pages',
+            dynamicImports: false
             // ignore: ''
         }),
         svelte({

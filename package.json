@@ -16,7 +16,7 @@
     "dependencies": {
         "livereload": "^0.8.0",
         "sirv-cli": "^0.4.4",
-        "svelte-filerouter": "^1.0.7"
+        "svelte-filerouter": "^1.3.0"
     },
     "scripts": {
         "build": "rollup -c",

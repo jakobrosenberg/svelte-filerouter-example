@@ -1,7 +1,9 @@
 DEPRECATED. We have moved:
 
 [Router](https://github.com/sveltech/routify)
+
 [Starter template](https://github.com/sveltech/routify-starter)
+
 [Example](https://routify-starter.now.sh/)
 
 
